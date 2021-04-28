@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: 6c2b6fe492b06e6489f70a5b0252f62c
+guid: 877a2103527aaa745bdfb81403f68e5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7468276728048604513
-    second: gothic-hero-jump_0
-  - first:
-      213: -1528968483713605751
-    second: gothic-hero-jump_1
-  - first:
-      213: 2065613693219613588
-    second: gothic-hero-jump_2
-  - first:
-      213: -3797278990935530344
-    second: gothic-hero-jump_3
-  - first:
-      213: 7556587491855275688
-    second: gothic-hero-jump_4
-  - first:
-      213: -285026267337483125
-    second: gothic-hero-jump_0
-  - first:
-      213: -3726822872622668026
-    second: gothic-hero-jump_1
-  - first:
-      213: 2361613479169986942
-    second: gothic-hero-jump_2
-  - first:
-      213: -3031210688130601689
-    second: gothic-hero-jump_3
-  - first:
-      213: -2332088084596446569
-    second: gothic-hero-jump_4
+      213: -1881480615590608629
+    second: pixil-frame-0 (19)_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -76,8 +49,8 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 2, y: 10, z: 18, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -191,106 +164,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gothic-hero-jump_0
+      name: pixil-frame-0 (19)_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 1
-        width: 47
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 12
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c91b7be126b0cf0800000000000000
-      internalID: -285026267337483125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gothic-hero-jump_1
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 10
-        width: 43
-        height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6076688c75aa74cc0800000000000000
-      internalID: -3726822872622668026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gothic-hero-jump_2
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 29
-        width: 38
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7193ba62f226c020800000000000000
-      internalID: 2361613479169986942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gothic-hero-jump_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 35
-        width: 42
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72dab9e60f9fee5d0800000000000000
-      internalID: -3031210688130601689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gothic-hero-jump_4
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 17
-        width: 50
-        height: 56
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79a25b43e32c2afd0800000000000000
-      internalID: -2332088084596446569
+      spriteID: b0140ff3953a3e5e0800000000000000
+      internalID: -1881480615590608629
       vertices: []
       indices: 
       edges: []
