@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Key : MonoBehaviour
-{
-    public GameObject door;
 
+public class FinalKey : MonoBehaviour
+{
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("col detected");
@@ -14,18 +13,16 @@ public class Key : MonoBehaviour
         if (collision.gameObject.layer == 8)
         {
             Debug.Log("key hit");
-            
+    
             Destroy(gameObject);
 
-            Destroy(door);
+            SceneManager.LoadScene("win");
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame
-    
+    void Update()
+    {
+        
+    }
 }
